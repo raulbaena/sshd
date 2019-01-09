@@ -3,10 +3,10 @@
 # instal·lacio 
 # - crear usuaris locals
 # -------------------------------------------
-groupadd gexamen
-useradd -g users -G gexamen examen01
-useradd -g users -G gexamen examen02
-useradd -g users -G gexamen examen03
-echo "examen01" | passwd --stdin examen01
-echo "examen02" | passwd --stdin examen02
-echo "examen03" | passwd --stdin examen03
+groupadd locals
+useradd -g users -G locals pere
+useradd -g users -G locals raul
+useradd -g users -G locals dani
+echo "pere" | passwd --stdin pere
+echo "raul" | passwd --stdin raul
+echo "dani" | passwd --stdin dani

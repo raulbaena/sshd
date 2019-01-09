@@ -18,3 +18,4 @@ AllowAgentForwarding yes
 AllowTcpForwarding yes
 X11Forwarding yes
 PrintMotd yes
+Allowusers anna vladimir pere raul
