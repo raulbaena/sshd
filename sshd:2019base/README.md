@@ -22,4 +22,4 @@ system-auth
 https://github.com/raulbaena/sshd.git
 
 #Per baixar la imatge de dcker hub
-docker pullaulbaena/sshd:2019base
+docker pull raulbaena/sshd:2019base
