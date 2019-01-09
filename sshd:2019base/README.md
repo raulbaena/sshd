@@ -1,11 +1,12 @@
 # SSHD
-## @edt ASIX M06-ASO Curs 2018-2019
+## Raul Baena Nocea @edt ASIX M06-ASO Curs 2018-2019
 # Maquina amb servidor ssh
 
 Repositori docker hub: raulbaena/sshd:2019base
 Repositori github: raulbaena/sshd:2019base
 
 #Fitxers de configuració
+
 Dockerfile
 install.sh	
 ldap.conf	
@@ -17,9 +18,10 @@ sshd_config
 startup.sh
 system-auth
 
+#Maquines utilitzdes
 
-#Per clonar repositori de github
-https://github.com/raulbaena/sshd.git
+raulbaena/ldapserver:sshd
+raulbaena/sshd:final
+raulbaena/hostpam:sshd
 
-#Per baixar la imatge de dcker hub
-docker pull raulbaena/sshd:2019base
+#Cfiguracio de 
