@@ -5,7 +5,7 @@
 Repositori docker hub: raulbaena/sshd:2019base
 Repositori github: raulbaena/sshd:2019base
 
-#Fitxers de configuració
+# Fitxers de configuració
 
 Dockerfile
 
@@ -27,12 +27,14 @@ startup.sh
 
 system-auth
 
-#Maquines utilitzdes
+# Maquines utilitzades
 
-raulbaena/ldapserver:sshd
+raulbaena/ldapserver:sshd --> Servidor LDAP amb la base de dades dc=edt,dc=org utilitzada a clase. 
 
-raulbaena/sshd:final
+raulbaena/sshd:final --> Servidor SSH  amb connexió al servidor LDAP, aquest servidor es podran conectar usuaris locals y LDAP
 
-raulbaena/hostpam:sshd
+raulbaena/hostpam:sshd --> Host amb connexió al servidor LDAP, aquest host es conectará amb usuaris locals y de ldap al servidor ssh
 
-#Cfiguracio de 
+# Configuració pam_mkhomedir
+
+
